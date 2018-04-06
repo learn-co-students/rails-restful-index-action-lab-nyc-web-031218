@@ -1,0 +1,9 @@
+<h1> Student List <h1>
+
+	<% @students.each do |stu| %>
+
+		<ul> 
+			<li><%= stu.to_s %></li>
+		</ul>
+
+	<% end %>
